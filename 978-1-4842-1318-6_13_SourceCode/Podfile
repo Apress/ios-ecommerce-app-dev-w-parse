@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+pod 'Parse'
+pod 'ParseFacebookUtilsV4','1.7.1'
+pod 'ParseUI'
+pod 'Stripe'
+pod 'Stripe/ApplePay'
+pod 'SVProgressHUD'

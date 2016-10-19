@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1380D7268B2D8BDBCA814FBD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8D1CF52AFC956B415F56D03 /* libPods.a */; };
+		7D0930221AF153B300AA309C /* EMABConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0930211AF153B300AA309C /* EMABConstants.m */; };
+		7D0930261AF154DA00AA309C /* LoginSignup.Storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D0930231AF154DA00AA309C /* LoginSignup.Storyboard */; };
+		7D0930271AF154DA00AA309C /* EMABDispatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0930241AF154DA00AA309C /* EMABDispatchViewController.m */; };
+		7D0BEF201B48691700C5AE01 /* EMABProductTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0BEF1F1B48691700C5AE01 /* EMABProductTableViewCell.m */; };
+		7D0BEF251B48694800C5AE01 /* EMABProductsFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0BEF221B48694800C5AE01 /* EMABProductsFilterViewController.m */; };
+		7D0BEF261B48694800C5AE01 /* EMABProductsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0BEF241B48694800C5AE01 /* EMABProductsTableViewController.m */; };
+		7D0BEF291B48696F00C5AE01 /* EMABProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0BEF281B48696F00C5AE01 /* EMABProduct.m */; };
+		7D0EBE931B49CA470096A929 /* EMABUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0EBE921B49CA470096A929 /* EMABUser.m */; };
+		7D0EBE961B49CA5B0096A929 /* EMABLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0EBE951B49CA5B0096A929 /* EMABLoginViewController.m */; };
+		7D0EBE991B49CA8A0096A929 /* EMABSignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0EBE981B49CA8A0096A929 /* EMABSignupViewController.m */; };
+		7D0EBE9E1B49CAAE0096A929 /* EMABEmailTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0EBE9B1B49CAAE0096A929 /* EMABEmailTextField.m */; };
+		7D0EBE9F1B49CAAE0096A929 /* EMABPasswordTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0EBE9D1B49CAAE0096A929 /* EMABPasswordTextField.m */; };
+		7D26B95D1B8CB57800D6E3BB /* EMABAddProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D26B95C1B8CB57800D6E3BB /* EMABAddProductViewController.m */; };
+		7D26B9601B8CB8D400D6E3BB /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D26B95F1B8CB8D400D6E3BB /* UIImage+Resize.m */; };
+		7D26F9841B48514B00892DA1 /* EMABCategoriesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D26F9831B48514B00892DA1 /* EMABCategoriesTableViewController.m */; };
+		7D26F9881B48517300892DA1 /* EMABCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D26F9871B48517300892DA1 /* EMABCategory.m */; };
+		7D26F98B1B4851C200892DA1 /* EMABCategoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D26F98A1B4851C200892DA1 /* EMABCategoryTableViewCell.m */; };
+		7D34BB9A1B53093D00796623 /* EMABUserAccountTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D34BB991B53093D00796623 /* EMABUserAccountTableViewController.m */; };
+		7D34BB9D1B53151500796623 /* EMABOrderHistoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D34BB9C1B53151500796623 /* EMABOrderHistoryTableViewCell.m */; };
+		7D34BBA01B53155A00796623 /* EMABUserOrderHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D34BB9F1B53155A00796623 /* EMABUserOrderHistoryViewController.m */; };
+		7D34BBA31B53187200796623 /* EMABOrderDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D34BBA21B53187200796623 /* EMABOrderDetailTableViewController.m */; };
+		7D34BBA61B53203D00796623 /* EMABUserFavoriteHistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D34BBA51B53203D00796623 /* EMABUserFavoriteHistoryTableViewController.m */; };
+		7D4F3C641B49BFFA00E1EC4F /* EMABProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4F3C631B49BFFA00E1EC4F /* EMABProductDetailViewController.m */; };
+		7D4F3C671B49C02200E1EC4F /* EMABFavoriteProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4F3C661B49C02200E1EC4F /* EMABFavoriteProduct.m */; };
+		7D52EC031AF119740073E3B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D52EC021AF119740073E3B5 /* main.m */; };
+		7D52EC061AF119740073E3B5 /* EMABAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D52EC051AF119740073E3B5 /* EMABAppDelegate.m */; };
+		7D52EC0F1AF119740073E3B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D52EC0D1AF119740073E3B5 /* Main.storyboard */; };
+		7D52EC111AF119740073E3B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D52EC101AF119740073E3B5 /* Images.xcassets */; };
+		7D52EC141AF119740073E3B5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D52EC121AF119740073E3B5 /* LaunchScreen.xib */; };
+		7DAF28851B518FEC007A3BCA /* EMABBagTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAF28841B518FEC007A3BCA /* EMABBagTableViewController.m */; };
+		7DAF28881B519009007A3BCA /* EMABOrderItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAF28871B519009007A3BCA /* EMABOrderItemTableViewCell.m */; };
+		7DAF288B1B51A9C2007A3BCA /* EMABUserProfileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAF288A1B51A9C2007A3BCA /* EMABUserProfileTableViewController.m */; };
+		7DAF288E1B51A9E5007A3BCA /* EMABUserProfileTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAF288D1B51A9E5007A3BCA /* EMABUserProfileTableViewCell.m */; };
+		7DAF28911B51B5D1007A3BCA /* EMABUserPaymentMethodTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAF28901B51B5D1007A3BCA /* EMABUserPaymentMethodTableViewController.m */; };
+		7DAF28941B51B5DE007A3BCA /* EMABAddCreditCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAF28931B51B5DE007A3BCA /* EMABAddCreditCardViewController.m */; };
+		7DAF28E01B51B71F007A3BCA /* EMABPaymentMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAF28DF1B51B71F007A3BCA /* EMABPaymentMethod.m */; };
+		7DEDCDF81B4F6A9E005853C0 /* EMABOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDCDF51B4F6A9E005853C0 /* EMABOrder.m */; };
+		7DEDCDF91B4F6A9E005853C0 /* EMABOrderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDCDF71B4F6A9E005853C0 /* EMABOrderItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D0930201AF153B300AA309C /* EMABConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMABConstants.h; sourceTree = "<group>"; };
+		7D0930211AF153B300AA309C /* EMABConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMABConstants.m; sourceTree = "<group>"; };
+		7D0930231AF154DA00AA309C /* LoginSignup.Storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginSignup.Storyboard; sourceTree = "<group>"; };
+		7D0930241AF154DA00AA309C /* EMABDispatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMABDispatchViewController.m; sourceTree = "<group>"; };
+		7D0930251AF154DA00AA309C /* EMABDispatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMABDispatchViewController.h; sourceTree = "<group>"; };
+		7D0BEF1E1B48691700C5AE01 /* EMABProductTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMABProductTableViewCell.h; sourceTree = "<group>"; };
+		7D0BEF1F1B48691700C5AE01 /* EMABProductTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMABProductTableViewCell.m; sourceTree = "<group>"; };
+		7D0BEF211B48694800C5AE01 /* EMABProductsFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMABProductsFilterViewController.h; sourceTree = "<group>"; };
+		7D0BEF221B48694800C5AE01 /* EMABProductsFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMABProductsFilterViewController.m; sourceTree = "<group>"; };
+		7D0BEF231B48694800C5AE01 /* EMABProductsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMABProductsTableViewController.h; sourceTree = "<group>"; };
+		7D0BEF241B48694800C5AE01 /* EMABProductsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMABProductsTableViewController.m; sourceTree = "<group>"; };
+		7D0BEF271B48696F00C5AE01 /* EMABProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMABProduct.h; sourceTree = "<group>"; };
+		7D0BEF281B48696F00C5AE01 /* EMABProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMABProduct.m; sourceTree = "<group>"; };
+		7D0EBE911B49CA470096A929 /* EMABUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMABUser.h; sourceTree = "<group>"; };
+		7D0EBE921B49CA470096A929 /* EMABUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMABUser.m; sourceTree = "<group>"; };
+		7D0EBE941B49CA5B0096A929 /* EMABLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMABLoginViewController.h; sourceTree = "<group>"; };
+		7D0EBE951B49CA5B0096A929 /* EMABLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMABLoginViewController.m; sourceTree = "<group>"; };
+		7D0EBE971B49CA8A0096A929 /* EMABSignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMABSignupViewController.h; sourceTree = "<group>"; };
+		7D0EBE981B49CA8A0096A929 /* EMABSignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMABSignupViewController.m; sourceTree = "<group>"; };
+		7D0EBE9A1B49CAAE0096A929 /* EMABEmailTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMABEmailTextField.h; sourceTree = "<group>"; };
+		7D0EBE9B1B49CAAE0096A929 /* EMABEmailTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMABEmailTextField.m; sourceTree = "<group>"; };
+		7D0EBE9C1B49CAAE0096A929 /* EMABPasswordTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMABPasswordTextField.h; sourceTree = "<group>"; };
+		7D0EBE9D1B49CAAE0096A929 /* EMABPasswordTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMABPasswordTextField.m; sourceTree = "<group>"; };
+		7D26B95B1B8CB57800D6E3BB /* EMABAddProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMABAddProductViewController.h; sourceTree = "<group>"; };
+		7D26B95C1B8CB57800D6E3BB /* EMABAddProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMABAddProductViewController.m; sourceTree = "<group>"; };
+		7D26B95E1B8CB8D400D6E3BB /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		7D26B95F1B8CB8D400D6E3BB /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		7D26F9821B48514B00892DA1 /* EMABCategoriesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMABCategoriesTableViewController.h; sourceTree = "<group>"; };
+		7D26F9831B48514B00892DA1 /* EMABCategoriesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMABCategoriesTableViewController.m; sourceTree = "<group>"; };
+		7D26F9861B48517300892DA1 /* EMABCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMABCategory.h; sourceTree = "<group>"; };
+		7D26F9871B48517300892DA1 /* EMABCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMABCategory.m; sourceTree = "<group>"; };
+		7D26F9891B4851C200892DA1 /* EMABCategoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMABCategoryTableViewCell.h; sourceTree = "<group>"; };
+		7D26F98A1B4851C200892DA1 /* EMABCategoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMABCategoryTableViewCell.m; sourceTree = "<group>"; };
+		7D34BB981B53093D00796623 /* EMABUserAccountTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMABUserAccountTableViewController.h; sourceTree = "<group>"; };
+		7D34BB991B53093D00796623 /* EMABUserAccountTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMABUserAccountTableViewController.m; sourceTree = "<group>"; };
+		7D34BB9B1B53151500796623 /* EMABOrderHistoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMABOrderHistoryTableViewCell.h; sourceTree = "<group>"; };
+		7D34BB9C1B53151500796623 /* EMABOrderHistoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMABOrderHistoryTableViewCell.m; sourceTree = "<group>"; };
+		7D34BB9E1B53155A00796623 /* EMABUserOrderHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMABUserOrderHistoryViewController.h; sourceTree = "<group>"; };
+		7D34BB9F1B53155A00796623 /* EMABUserOrderHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMABUserOrderHistoryViewController.m; sourceTree = "<group>"; };
+		7D34BBA11B53187200796623 /* EMABOrderDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMABOrderDetailTableViewController.h; sourceTree = "<group>"; };
+		7D34BBA21B53187200796623 /* EMABOrderDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMABOrderDetailTableViewController.m; sourceTree = "<group>"; };
+		7D34BBA41B53203D00796623 /* EMABUserFavoriteHistoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMABUserFavoriteHistoryTableViewController.h; sourceTree = "<group>"; };
+		7D34BBA51B53203D00796623 /* EMABUserFavoriteHistoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMABUserFavoriteHistoryTableViewController.m; sourceTree = "<group>"; };
+		7D4F3C621B49BFFA00E1EC4F /* EMABProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMABProductDetailViewController.h; sourceTree = "<group>"; };
+		7D4F3C631B49BFFA00E1EC4F /* EMABProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMABProductDetailViewController.m; sourceTree = "<group>"; };
+		7D4F3C651B49C02200E1EC4F /* EMABFavoriteProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMABFavoriteProduct.h; sourceTree = "<group>"; };
+		7D4F3C661B49C02200E1EC4F /* EMABFavoriteProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMABFavoriteProduct.m; sourceTree = "<group>"; };
+		7D52EBFD1AF119740073E3B5 /* Chapter16.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chapter16.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D52EC011AF119740073E3B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D52EC021AF119740073E3B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D52EC041AF119740073E3B5 /* EMABAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMABAppDelegate.h; sourceTree = "<group>"; };
+		7D52EC051AF119740073E3B5 /* EMABAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMABAppDelegate.m; sourceTree = "<group>"; };
+		7D52EC0E1AF119740073E3B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D52EC101AF119740073E3B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7D52EC131AF119740073E3B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7DAF28831B518FEC007A3BCA /* EMABBagTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMABBagTableViewController.h; sourceTree = "<group>"; };
+		7DAF28841B518FEC007A3BCA /* EMABBagTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMABBagTableViewController.m; sourceTree = "<group>"; };
+		7DAF28861B519009007A3BCA /* EMABOrderItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMABOrderItemTableViewCell.h; sourceTree = "<group>"; };
+		7DAF28871B519009007A3BCA /* EMABOrderItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMABOrderItemTableViewCell.m; sourceTree = "<group>"; };
+		7DAF28891B51A9C2007A3BCA /* EMABUserProfileTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMABUserProfileTableViewController.h; sourceTree = "<group>"; };
+		7DAF288A1B51A9C2007A3BCA /* EMABUserProfileTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMABUserProfileTableViewController.m; sourceTree = "<group>"; };
+		7DAF288C1B51A9E5007A3BCA /* EMABUserProfileTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMABUserProfileTableViewCell.h; sourceTree = "<group>"; };
+		7DAF288D1B51A9E5007A3BCA /* EMABUserProfileTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMABUserProfileTableViewCell.m; sourceTree = "<group>"; };
+		7DAF288F1B51B5D1007A3BCA /* EMABUserPaymentMethodTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMABUserPaymentMethodTableViewController.h; sourceTree = "<group>"; };
+		7DAF28901B51B5D1007A3BCA /* EMABUserPaymentMethodTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMABUserPaymentMethodTableViewController.m; sourceTree = "<group>"; };
+		7DAF28921B51B5DE007A3BCA /* EMABAddCreditCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMABAddCreditCardViewController.h; sourceTree = "<group>"; };
+		7DAF28931B51B5DE007A3BCA /* EMABAddCreditCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMABAddCreditCardViewController.m; sourceTree = "<group>"; };
+		7DAF28DE1B51B71F007A3BCA /* EMABPaymentMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMABPaymentMethod.h; sourceTree = "<group>"; };
+		7DAF28DF1B51B71F007A3BCA /* EMABPaymentMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMABPaymentMethod.m; sourceTree = "<group>"; };
+		7DEDCDF41B4F6A9E005853C0 /* EMABOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMABOrder.h; sourceTree = "<group>"; };
+		7DEDCDF51B4F6A9E005853C0 /* EMABOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMABOrder.m; sourceTree = "<group>"; };
+		7DEDCDF61B4F6A9E005853C0 /* EMABOrderItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMABOrderItem.h; sourceTree = "<group>"; };
+		7DEDCDF71B4F6A9E005853C0 /* EMABOrderItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMABOrderItem.m; sourceTree = "<group>"; };
+		9EB952AFF90F254F166D8D96 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A8D1CF52AFC956B415F56D03 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFDBF2C44F3DF94959816266 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D52EBFA1AF119740073E3B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1380D7268B2D8BDBCA814FBD /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3070711978041C3A23300B8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFDBF2C44F3DF94959816266 /* Pods.debug.xcconfig */,
+				9EB952AFF90F254F166D8D96 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6704E9C8164B94239D4F3885 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8D1CF52AFC956B415F56D03 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D26F97E1B48503100892DA1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7D34BBA41B53203D00796623 /* EMABUserFavoriteHistoryTableViewController.h */,
+				7D34BBA51B53203D00796623 /* EMABUserFavoriteHistoryTableViewController.m */,
+				7D34BB981B53093D00796623 /* EMABUserAccountTableViewController.h */,
+				7D34BB991B53093D00796623 /* EMABUserAccountTableViewController.m */,
+				7DAF28921B51B5DE007A3BCA /* EMABAddCreditCardViewController.h */,
+				7DAF28931B51B5DE007A3BCA /* EMABAddCreditCardViewController.m */,
+				7DAF288F1B51B5D1007A3BCA /* EMABUserPaymentMethodTableViewController.h */,
+				7DAF28901B51B5D1007A3BCA /* EMABUserPaymentMethodTableViewController.m */,
+				7DAF28891B51A9C2007A3BCA /* EMABUserProfileTableViewController.h */,
+				7DAF288A1B51A9C2007A3BCA /* EMABUserProfileTableViewController.m */,
+				7DAF28831B518FEC007A3BCA /* EMABBagTableViewController.h */,
+				7DAF28841B518FEC007A3BCA /* EMABBagTableViewController.m */,
+				7D0EBE971B49CA8A0096A929 /* EMABSignupViewController.h */,
+				7D0EBE981B49CA8A0096A929 /* EMABSignupViewController.m */,
+				7D0EBE941B49CA5B0096A929 /* EMABLoginViewController.h */,
+				7D0EBE951B49CA5B0096A929 /* EMABLoginViewController.m */,
+				7D4F3C621B49BFFA00E1EC4F /* EMABProductDetailViewController.h */,
+				7D4F3C631B49BFFA00E1EC4F /* EMABProductDetailViewController.m */,
+				7D0BEF211B48694800C5AE01 /* EMABProductsFilterViewController.h */,
+				7D0BEF221B48694800C5AE01 /* EMABProductsFilterViewController.m */,
+				7D0BEF231B48694800C5AE01 /* EMABProductsTableViewController.h */,
+				7D0BEF241B48694800C5AE01 /* EMABProductsTableViewController.m */,
+				7D26F9821B48514B00892DA1 /* EMABCategoriesTableViewController.h */,
+				7D26F9831B48514B00892DA1 /* EMABCategoriesTableViewController.m */,
+				7D0930241AF154DA00AA309C /* EMABDispatchViewController.m */,
+				7D0930251AF154DA00AA309C /* EMABDispatchViewController.h */,
+				7D34BB9E1B53155A00796623 /* EMABUserOrderHistoryViewController.h */,
+				7D34BB9F1B53155A00796623 /* EMABUserOrderHistoryViewController.m */,
+				7D34BBA11B53187200796623 /* EMABOrderDetailTableViewController.h */,
+				7D34BBA21B53187200796623 /* EMABOrderDetailTableViewController.m */,
+				7D26B95B1B8CB57800D6E3BB /* EMABAddProductViewController.h */,
+				7D26B95C1B8CB57800D6E3BB /* EMABAddProductViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7D26F9801B48504400892DA1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7DAF288C1B51A9E5007A3BCA /* EMABUserProfileTableViewCell.h */,
+				7DAF288D1B51A9E5007A3BCA /* EMABUserProfileTableViewCell.m */,
+				7DAF28861B519009007A3BCA /* EMABOrderItemTableViewCell.h */,
+				7DAF28871B519009007A3BCA /* EMABOrderItemTableViewCell.m */,
+				7D0EBE9A1B49CAAE0096A929 /* EMABEmailTextField.h */,
+				7D0EBE9B1B49CAAE0096A929 /* EMABEmailTextField.m */,
+				7D0EBE9C1B49CAAE0096A929 /* EMABPasswordTextField.h */,
+				7D0EBE9D1B49CAAE0096A929 /* EMABPasswordTextField.m */,
+				7D0BEF1E1B48691700C5AE01 /* EMABProductTableViewCell.h */,
+				7D0BEF1F1B48691700C5AE01 /* EMABProductTableViewCell.m */,
+				7D26F9891B4851C200892DA1 /* EMABCategoryTableViewCell.h */,
+				7D26F98A1B4851C200892DA1 /* EMABCategoryTableViewCell.m */,
+				7D34BB9B1B53151500796623 /* EMABOrderHistoryTableViewCell.h */,
+				7D34BB9C1B53151500796623 /* EMABOrderHistoryTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		7D26F9811B48505600892DA1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7D26B95E1B8CB8D400D6E3BB /* UIImage+Resize.h */,
+				7D26B95F1B8CB8D400D6E3BB /* UIImage+Resize.m */,
+				7D0930201AF153B300AA309C /* EMABConstants.h */,
+				7D0930211AF153B300AA309C /* EMABConstants.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		7D26F9851B48515F00892DA1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7DAF28DE1B51B71F007A3BCA /* EMABPaymentMethod.h */,
+				7DAF28DF1B51B71F007A3BCA /* EMABPaymentMethod.m */,
+				7DEDCDF41B4F6A9E005853C0 /* EMABOrder.h */,
+				7DEDCDF51B4F6A9E005853C0 /* EMABOrder.m */,
+				7DEDCDF61B4F6A9E005853C0 /* EMABOrderItem.h */,
+				7DEDCDF71B4F6A9E005853C0 /* EMABOrderItem.m */,
+				7D0EBE911B49CA470096A929 /* EMABUser.h */,
+				7D0EBE921B49CA470096A929 /* EMABUser.m */,
+				7D4F3C651B49C02200E1EC4F /* EMABFavoriteProduct.h */,
+				7D4F3C661B49C02200E1EC4F /* EMABFavoriteProduct.m */,
+				7D0BEF271B48696F00C5AE01 /* EMABProduct.h */,
+				7D0BEF281B48696F00C5AE01 /* EMABProduct.m */,
+				7D26F9861B48517300892DA1 /* EMABCategory.h */,
+				7D26F9871B48517300892DA1 /* EMABCategory.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		7D52EBF41AF119740073E3B5 = {
+			isa = PBXGroup;
+			children = (
+				7D52EBFF1AF119740073E3B5 /* Chapter16 */,
+				7D52EBFE1AF119740073E3B5 /* Products */,
+				3070711978041C3A23300B8A /* Pods */,
+				6704E9C8164B94239D4F3885 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7D52EBFE1AF119740073E3B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D52EBFD1AF119740073E3B5 /* Chapter16.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D52EBFF1AF119740073E3B5 /* Chapter16 */ = {
+			isa = PBXGroup;
+			children = (
+				7D26F9851B48515F00892DA1 /* Models */,
+				7D26F9811B48505600892DA1 /* Utilities */,
+				7D26F9801B48504400892DA1 /* Views */,
+				7D26F97E1B48503100892DA1 /* Controllers */,
+				7D52EC041AF119740073E3B5 /* EMABAppDelegate.h */,
+				7D52EC051AF119740073E3B5 /* EMABAppDelegate.m */,
+				7D52EC101AF119740073E3B5 /* Images.xcassets */,
+				7D52EC001AF119740073E3B5 /* Supporting Files */,
+			);
+			path = Chapter16;
+			sourceTree = "<group>";
+		};
+		7D52EC001AF119740073E3B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D52EC0D1AF119740073E3B5 /* Main.storyboard */,
+				7D0930231AF154DA00AA309C /* LoginSignup.Storyboard */,
+				7D52EC121AF119740073E3B5 /* LaunchScreen.xib */,
+				7D52EC011AF119740073E3B5 /* Info.plist */,
+				7D52EC021AF119740073E3B5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D52EBFC1AF119740073E3B5 /* Chapter16 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D52EC231AF119740073E3B5 /* Build configuration list for PBXNativeTarget "Chapter16" */;
+			buildPhases = (
+				12E52EA5DCABEA3894B31C5A /* Check Pods Manifest.lock */,
+				7D52EBF91AF119740073E3B5 /* Sources */,
+				7D52EBFA1AF119740073E3B5 /* Frameworks */,
+				7D52EBFB1AF119740073E3B5 /* Resources */,
+				7DE2202EFBB3EB6891598996 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chapter16;
+			productName = Chapter4;
+			productReference = 7D52EBFD1AF119740073E3B5 /* Chapter16.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D52EBF51AF119740073E3B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = EMAB;
+				TargetAttributes = {
+					7D52EBFC1AF119740073E3B5 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 7D52EBF81AF119740073E3B5 /* Build configuration list for PBXProject "Chapter16" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D52EBF41AF119740073E3B5;
+			productRefGroup = 7D52EBFE1AF119740073E3B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D52EBFC1AF119740073E3B5 /* Chapter16 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D52EBFB1AF119740073E3B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D0930261AF154DA00AA309C /* LoginSignup.Storyboard in Resources */,
+				7D52EC0F1AF119740073E3B5 /* Main.storyboard in Resources */,
+				7D52EC141AF119740073E3B5 /* LaunchScreen.xib in Resources */,
+				7D52EC111AF119740073E3B5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12E52EA5DCABEA3894B31C5A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7DE2202EFBB3EB6891598996 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D52EBF91AF119740073E3B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D0EBE961B49CA5B0096A929 /* EMABLoginViewController.m in Sources */,
+				7D34BBA31B53187200796623 /* EMABOrderDetailTableViewController.m in Sources */,
+				7DAF288E1B51A9E5007A3BCA /* EMABUserProfileTableViewCell.m in Sources */,
+				7D34BB9A1B53093D00796623 /* EMABUserAccountTableViewController.m in Sources */,
+				7DEDCDF81B4F6A9E005853C0 /* EMABOrder.m in Sources */,
+				7D26B95D1B8CB57800D6E3BB /* EMABAddProductViewController.m in Sources */,
+				7D0BEF261B48694800C5AE01 /* EMABProductsTableViewController.m in Sources */,
+				7D0930221AF153B300AA309C /* EMABConstants.m in Sources */,
+				7D52EC061AF119740073E3B5 /* EMABAppDelegate.m in Sources */,
+				7D34BBA61B53203D00796623 /* EMABUserFavoriteHistoryTableViewController.m in Sources */,
+				7D34BBA01B53155A00796623 /* EMABUserOrderHistoryViewController.m in Sources */,
+				7D34BB9D1B53151500796623 /* EMABOrderHistoryTableViewCell.m in Sources */,
+				7D0930271AF154DA00AA309C /* EMABDispatchViewController.m in Sources */,
+				7D0EBE9F1B49CAAE0096A929 /* EMABPasswordTextField.m in Sources */,
+				7D4F3C641B49BFFA00E1EC4F /* EMABProductDetailViewController.m in Sources */,
+				7D26B9601B8CB8D400D6E3BB /* UIImage+Resize.m in Sources */,
+				7D0EBE931B49CA470096A929 /* EMABUser.m in Sources */,
+				7DAF28851B518FEC007A3BCA /* EMABBagTableViewController.m in Sources */,
+				7DAF28881B519009007A3BCA /* EMABOrderItemTableViewCell.m in Sources */,
+				7D26F9841B48514B00892DA1 /* EMABCategoriesTableViewController.m in Sources */,
+				7D26F9881B48517300892DA1 /* EMABCategory.m in Sources */,
+				7D4F3C671B49C02200E1EC4F /* EMABFavoriteProduct.m in Sources */,
+				7D0BEF291B48696F00C5AE01 /* EMABProduct.m in Sources */,
+				7D0EBE9E1B49CAAE0096A929 /* EMABEmailTextField.m in Sources */,
+				7DEDCDF91B4F6A9E005853C0 /* EMABOrderItem.m in Sources */,
+				7DAF28941B51B5DE007A3BCA /* EMABAddCreditCardViewController.m in Sources */,
+				7DAF28911B51B5D1007A3BCA /* EMABUserPaymentMethodTableViewController.m in Sources */,
+				7D0BEF251B48694800C5AE01 /* EMABProductsFilterViewController.m in Sources */,
+				7D52EC031AF119740073E3B5 /* main.m in Sources */,
+				7DAF28E01B51B71F007A3BCA /* EMABPaymentMethod.m in Sources */,
+				7D0BEF201B48691700C5AE01 /* EMABProductTableViewCell.m in Sources */,
+				7D26F98B1B4851C200892DA1 /* EMABCategoryTableViewCell.m in Sources */,
+				7DAF288B1B51A9C2007A3BCA /* EMABUserProfileTableViewController.m in Sources */,
+				7D0EBE991B49CA8A0096A929 /* EMABSignupViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D52EC0D1AF119740073E3B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D52EC0E1AF119740073E3B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D52EC121AF119740073E3B5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D52EC131AF119740073E3B5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D52EC211AF119740073E3B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7D52EC221AF119740073E3B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D52EC241AF119740073E3B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFDBF2C44F3DF94959816266 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/Chapter16/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ecommerceappbook.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Chapter16;
+			};
+			name = Debug;
+		};
+		7D52EC251AF119740073E3B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EB952AFF90F254F166D8D96 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/Chapter16/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ecommerceappbook.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Chapter16;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D52EBF81AF119740073E3B5 /* Build configuration list for PBXProject "Chapter16" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D52EC211AF119740073E3B5 /* Debug */,
+				7D52EC221AF119740073E3B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D52EC231AF119740073E3B5 /* Build configuration list for PBXNativeTarget "Chapter16" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D52EC241AF119740073E3B5 /* Debug */,
+				7D52EC251AF119740073E3B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D52EBF51AF119740073E3B5 /* Project object */;
+}
